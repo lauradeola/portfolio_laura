@@ -120,6 +120,7 @@ ul {
 }
 
 .download a:hover {
+  color: #e8b4c7;
   text-decoration: underline;
 }
 
