@@ -106,7 +106,7 @@ ul {
 }
 
 .projeto a:hover {
-  color: #00d9ff;
+  color: #e8b4c7;
 }
 
 .download {
@@ -116,7 +116,7 @@ ul {
 
 .download a {
   color: #e8b4c7;
-  text-decoration: none;
+  text-decoration: underline;
 }
 
 .download a:hover {
