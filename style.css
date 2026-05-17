@@ -202,3 +202,11 @@ blockquote span {
 .rodape p {
   font-size: 0.9rem;
 }
+a {
+  color: #f5d0dc;
+  transition: 0.3s;
+}
+
+a:hover {
+  color: #e8b4c7;
+}
