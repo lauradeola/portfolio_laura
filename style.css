@@ -118,9 +118,16 @@ ul {
 .projeto {
   padding: 15px;
   margin-top: 15px;
-  border-left: 5px solid #00d9ff;
-  background: #f9f9f9;
-  border-radius: 5px;
+
+  border-left: 5px solid #e8b4c7;
+
+  background: rgba(255,255,255,0.6);
+
+  border-radius: 16px;
+
+  box-shadow:
+    8px 8px 20px rgba(232,180,199,0.12),
+    -8px -8px 20px rgba(255,255,255,0.7);
 }
 
 .projeto a {
