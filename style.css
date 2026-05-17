@@ -2,7 +2,10 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: Playfair Display, Playfair Display, Playfair Display;
+}
+
+body {
+  font-family: "Playfair Display", serif;
 }
 
 body {
