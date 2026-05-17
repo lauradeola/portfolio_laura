@@ -58,11 +58,31 @@ nav a:hover {
 }
 
 .card {
-  background: white;
+  background: rgba(255, 255, 255, 0.7);
+
   padding: 25px;
   margin: 25px 0;
-  border-radius: 10px;
-  box-shadow: 0px 0px 8px rgba(0,0,0,0.15);
+
+  border-radius: 20px;
+
+  border: 1px solid rgba(232, 180, 199, 0.25);
+
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+
+  box-shadow:
+    10px 10px 25px rgba(232, 180, 199, 0.15),
+    -10px -10px 25px rgba(255, 255, 255, 0.8);
+
+  transition: all 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-6px);
+
+  box-shadow:
+    15px 15px 30px rgba(232, 180, 199, 0.2),
+    -10px -10px 25px rgba(255, 255, 255, 0.9);
 }
 
 .card h2 {
