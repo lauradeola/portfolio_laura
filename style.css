@@ -19,8 +19,7 @@ body {
   color: #111;
   line-height: 1.6;
 
-  overflow-x: hidden;
-  position: relative;
+ 
 }
 
 overflow-x: hidden;
@@ -142,16 +141,7 @@ ul {
 .perfil img:hover {
   transform: scale(1.05);
 }
-  width: 160px;
-  height: 160px;
-  border-radius: 50%;
-
-  border: 4px solid rgba(232,180,199,0.5);
-
-  box-shadow: 0 10px 25px rgba(232,180,199,0.2);
-}
-  object-fit: cover;
-}
+  
 
 .projeto {
   padding: 15px;
