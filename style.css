@@ -18,8 +18,13 @@ body {
 
   color: #111;
   line-height: 1.6;
+
+  overflow-x: hidden;
+  position: relative;
 }
 
+overflow-x: hidden;
+position: relative;
 .container {
   width: 90%;
   max-width: 1000px;
@@ -225,4 +230,43 @@ a {
 
 a:hover {
   color: #e8b4c7;
+}
+
+body::before {
+  content: "";
+
+  position: fixed;
+  inset: 0;
+
+  background:
+    radial-gradient(
+      circle at top left,
+      rgba(232,180,199,0.10),
+      transparent 40%
+    ),
+
+    radial-gradient(
+      circle at bottom right,
+      rgba(245,208,220,0.08),
+      transparent 40%
+    );
+
+  z-index: -1;
+
+  animation: fundoLeve 12s ease-in-out infinite alternate;
+}
+
+@keyframes fundoLeve {
+
+  from {
+    transform:
+      translate(0px, 0px)
+      scale(1);
+  }
+
+  to {
+    transform:
+      translate(6px, -6px)
+      scale(1.01);
+  }
 }
